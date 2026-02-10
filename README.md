@@ -14,3 +14,22 @@ The agent is trained using Soft Actor-Critic (SAC) combined with Hindsight Exper
 ## Training
 ```bash
 python -m training.train_rl
+```
+
+## Evaluation
+```bash
+python -m evaluation.evaluate
+```
+
+## Planned Extensions
+
+The current implementation focuses on pure reinforcement learning to
+establish a strong baseline and understand the environmental dynamics.
+
+Planned extensions include:
+- Imitation Learning via Behaviour Cloning from expert demonstrations
+- RL fine-tuning initialised from BC policies
+- Success-rate and sample-efficiency comparisons between BC and RL
+
+The repository structure already reflects this planned pipeline.
+
