@@ -7,7 +7,7 @@ The agent is trained using Soft Actor-Critic (SAC) combined with Hindsight Exper
 
 ## Environment
 - Simulator: MuJoCo
-- Task: FetchPickAndPlace-v4 (Gymnasium Robotics)
+- Task: FetchReach-v4 (Gymnasium Robotics)
 - Observation: Robot state + achieved goal + desired goal
 - Action Space: 4D continuous control (end-effector + gripper)
 
